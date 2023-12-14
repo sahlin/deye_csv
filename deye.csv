@@ -39,9 +39,9 @@ ref,External CT L3 Power,618,int16,r,W
 
 poll,holding_register,625,29,BE_BE
 ref,Total Grid Power,625,int16,r,W
-ref,Current L1,630,int16,r,A,0.01
-ref,Current L2,631,int16,r,A,0.01
-ref,Current L3,632,int16,r,A,0.01
+ref,Current L1,630,int16,r,A
+ref,Current L2,631,int16,r,A
+ref,Current L3,632,int16,r,A
 ref,Inverter L1 Power,633,int16,r,W
 ref,Inverter L2 Power,634,int16,r,W
 ref,Inverter L3 Power,635,int16,r,W
