@@ -15,20 +15,20 @@ ref,Daily Production,529,int16,r,kWh
 ref,Total Production,534,int32,r,kWh
 
 poll,holding_register,540,2,BE_BE
-ref,DC Temperature,540,int16,r,C,0.01
-ref,AC Temperature,541,int16,r,C,0.01
+ref,DC Temperature,540,int16,r,C
+ref,AC Temperature,541,int16,r,C
 
 poll,holding_register,586,6,BE_BE
-ref,Battery Temperature,586,int16,r,C,0.01
-ref,Battery Voltage,587,int16,r,V,0.1
+ref,Battery Temperature,586,int16,r,C
+ref,Battery Voltage,587,int16,r,V
 ref,Battery SOC,588,int16,r,%
 ref,Battery Power,590,int16,r,W
-ref,Battery Current,591,int16,r,A,0.01
+ref,Battery Current,591,int16,r,A
 
 poll,holding_register,598,21,BE_BE
-ref,Grid Voltage L1,598,int16,r,V,0.1
-ref,Grid Voltage L2,599,int16,r,V,0.1
-ref,Grid Voltage L3,600,int16,r,V,0.1
+ref,Grid Voltage L1,598,int16,r,V
+ref,Grid Voltage L2,599,int16,r,V
+ref,Grid Voltage L3,600,int16,r,V
 ref,Internal CT L1 Power,604,int16,r,W
 ref,Internal CT L2 Power,605,int16,r,W
 ref,Internal CT L3 Power,606,int16,r,W
@@ -45,9 +45,9 @@ ref,Current L3,632,int16,r,A,0.01
 ref,Inverter L1 Power,633,int16,r,W
 ref,Inverter L2 Power,634,int16,r,W
 ref,Inverter L3 Power,635,int16,r,W
-ref,Load Voltage L1,644,int16,r,V,0.1
-ref,Load Voltage L2,645,int16,r,V,0.1
-ref,Load Voltage L3,646,int16,r,V,0.1
+ref,Load Voltage L1,644,int16,r,V
+ref,Load Voltage L2,645,int16,r,V
+ref,Load Voltage L3,646,int16,r,V
 ref,Load L1 Power,650,int16,r,W
 ref,Load L2 Power,651,int16,r,W
 ref,Load L3 Power,652,int16,r,W
@@ -56,8 +56,8 @@ ref,Total Load Power,653,int16,r,W
 poll,holding_register,672,9,BE_BE
 ref,PV1 Power,672,int16,r,W
 ref,PV2 Power,673,int16,r,W
-ref,PV1 Voltage,676,int16,r,V,0.1
-ref,PV2 Voltage,678,int16,r,V,0.1
-ref,PV1 Current,677,int16,r,A,0.01
-ref,PV2 Current,679,int16,r,A,0.01
+ref,PV1 Voltage,676,int16,r,V
+ref,PV2 Voltage,678,int16,r,V
+ref,PV1 Current,677,int16,r,A
+ref,PV2 Current,679,int16,r,A
 
